@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>template</title>
+    <style>
+      /* GENERAL STYLES */
+      * {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        font-family: monospace;
+      }
+      tr,
+      td {
+        padding: 0;
+        margin: 0;
+        border: 0;
+        border-collapse: collapse;
+      }
+
+      /* CUSTOM STYLES */
+    </style>
+  </head>
+  <body class="body" style="background-color: #e9eae4">
+    <div
+      class="container"
+      style="max-width: 680px; margin: 0 auto; background-color: #fcfdf8"
+    >
+      <table
+        style="border: 0; width: 100%"
+        role="presentation"
+        cellspacing="0"
+        cellpadding="0"
+      >
+        <!-------------------------------------------------- 
+            TOP BORDER START
+        --------------------------------------------------->
+        <tr>
+          <td height="20px" style="background-color: #c3384b"></td>
+        </tr>
+        <!-------------------------------------------------- 
+            TOP BORDER END 
+        --------------------------------------------------->
+
+        <!------------------------------------------------- 
+            HEADER START : TWO COLUMNS [PHOTO + CONTACT]
+         -------------------------------------------------->
+        <tr>
+          <td>
+            <div
+              class="two-columns"
+              style="
+                display: table;
+                width: 100%;
+                font-size: 0;
+                text-align: left;
+                margin: 0;
+              "
+            >
+              <!-- COLUMN LEFT [CONTACT] -->
+              <div
+                class="column"
+                style="
+                  display: inline-block;
+                  width: 100%;
+                  margin: 0;
+                  min-width: 200px;
+                  max-width: 340px;
+                  vertical-align: middle;
+                "
+              >
+                <table role="presentation" style="width: 100%">
+                  <!-- NAME / OCCUPATION -->
+                  <tr>
+                    <td class="content" style="padding: 20px; text-align: left">
+                      <h1
+                        style="
+                          margin: 0 0 15px;
+                          font-weight: bold;
+                          font-size: 27px;
+                          line-height: 27px;
+                          color: #472438;
+                        "
+                      >
+                        RADOVAN BOTÍK
+                      </h1>
+                      <h3
+                        style="
+                          margin: 0 0 10px;
+                          font-weight: lighter;
+                          font-size: 17px;
+                          line-height: 21px;
+                          color: #472438;
+                        "
+                      >
+                        Frontend Developer
+                      </h3>
+                    </td>
+                  </tr>
+                  <!-- CONTACT / LINKS -->
+                  <tr>
+                    <td class="content" style="padding: 20px; text-align: left">
+                      <!-- ROW TELEPHONE -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin-right: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="odkaz na telefonický kontakt"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - ICON -->
+
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <a
+                                  href="tel:+421910931580"
+                                  style="text-decoration: none; color: #472438"
+                                  >+421910931580</a
+                                >
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                      </div>
+                      <!-- ROW MAIL -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="odkaz na emailový kontakt"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - ICON -->
+
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <a
+                                  href="mailto:radovanbotik@gmail.com"
+                                  style="text-decoration: none; color: #472438"
+                                  >radovanbotik@gmail.com</a
+                                >
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                      </div>
+
+                      <!-- ROW ADRESS -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="odkaz na kontaktnú adresu"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - ICON -->
+
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <a
+                                  href="https://goo.gl/maps/JtM6YhBSdpGxniNJ8"
+                                  style="text-decoration: none; color: #472438"
+                                  >Konštantína Čulena 17,<br />
+                                  917 01 Trnava</a
+                                >
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN -TEXT INFORMATION -->
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!-- COLUMN RIGHT [PHOTO] -->
+              <div
+                class="column"
+                style="
+                  display: inline-block;
+                  width: 100%;
+                  margin: 0;
+                  min-width: 200px;
+                  max-width: 340px;
+                  vertical-align: middle;
+                "
+              >
+                <table
+                  role="presentation"
+                  style="width: 100%"
+                  cellspacing="0"
+                  cellpadding="0"
+                >
+                  <tr>
+                    <td>
+                      <img
+                        src="https://i.ibb.co/v4mmT8z/Layer-1.png"
+                        alt="picture of Radovan Botík, applicant for a job"
+                        style="width: 100%; max-width: 340px; display: block"
+                      />
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <!------------------------------------------------- 
+            BODY START : TWO COLUMNS
+         ------------------------------------------------->
+        <tr>
+          <td>
+            <div
+              class="two-columns"
+              style="display: table; width: 100%; font-size: 0; margin: 0"
+            >
+              <!-- COLUMN LEFT [EDUCATION, GIT & COURSES, SKILLS] -->
+              <div
+                class="column"
+                style="
+                  display: inline-block;
+                  width: 100%;
+                  margin: 0;
+                  min-width: 200px;
+                  max-width: 340px;
+                  vertical-align: top;
+                "
+              >
+                <table role="presentation" style="width: 100%">
+                  <!-- EDUCATION -->
+                  <tr>
+                    <td class="content" style="padding: 20px; text-align: left">
+                      <!-- EDUCATION TWO COLUMNS -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin-right: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="ikona pre sekciu vzdelanie"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <h2
+                                  style="
+                                    font-weight: lighter;
+                                    font-size: 17px;
+                                    line-height: 21px;
+                                    color: #472438;
+                                  "
+                                >
+                                  VZDELANIE
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- EDUCATION TWO COLUMNS -->
+                      <table>
+                        <tr>
+                          <td
+                            style="
+                              margin: 0 0 10px;
+                              font-weight: lighter;
+                              font-size: 17px;
+                              line-height: 21px;
+                              color: #472438;
+                            "
+                          >
+                            <p>Gymnázium Jána Hollého</p>
+                            <p>2008-2012</p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- COURSES -->
+                  <tr>
+                    <td class="content" style="padding: 20px; text-align: left">
+                      <!-- SECTION HEADER -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin-right: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="ikona pre sekciu vzdelanie"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <h2
+                                  style="
+                                    font-weight: lighter;
+                                    font-size: 17px;
+                                    line-height: 21px;
+                                    color: #472438;
+                                  "
+                                >
+                                  ABSOLVOVANÉ KURZY
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+
+                      <!-- SECTION BODY -->
+                      <table>
+                        <tr>
+                          <td
+                            style="
+                              margin: 0 0 10px;
+                              font-weight: lighter;
+                              font-size: 17px;
+                              line-height: 21px;
+                              color: #472438;
+                            "
+                          >
+                            <p>Javascript</p>
+                            <p>
+                              <a
+                                href="https://www.udemy.com/certificate/UC-192ffbd0-401d-42d7-b0a2-1483ef07114e/"
+                                target="_blank"
+                                >Zobraziť certifikát</a
+                              >
+                            </p>
+                            <p>
+                              <a
+                                href="https://www.udemy.com/certificate/UC-9a35a05f-08c4-4256-859b-0b79ac5155ef/"
+                                target="_blank"
+                                >Zobraziť certifikát</a
+                              >
+                            </p>
+                            <p>CSS</p>
+                            <p>
+                              <a
+                                href="https://www.udemy.com/certificate/UC-c90250bd-92bf-417a-9732-31778af2ec44/"
+                                target="_blank"
+                                >Zobraziť certifikát</a
+                              >
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- PROJECTS -->
+                  <tr>
+                    <td class="content" style="padding: 20px; text-align: left">
+                      <!-- SECTION HEADER -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin-right: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="ikona pre sekciu vzdelanie"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <h2
+                                  style="
+                                    font-weight: lighter;
+                                    font-size: 17px;
+                                    line-height: 21px;
+                                    color: #472438;
+                                  "
+                                >
+                                  NEDÁVNE PROJEKTY
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- SECTION BODY -->
+                      <table>
+                        <tr>
+                          <td
+                            style="
+                              margin: 0 0 10px;
+                              font-weight: lighter;
+                              font-size: 17px;
+                              line-height: 21px;
+                              color: #472438;
+                            "
+                          >
+                            <p>Barbers Landing Page</p>
+                            <p>
+                              <a
+                                href="https://melodic-empanada-155630.netlify.app/"
+                                target="_blank"
+                                >Zobraziť projekt</a
+                              >
+                            </p>
+                            <p>Street Food Landing Page</p>
+                            <p>
+                              <a
+                                href="https://melodic-khapse-7e1369.netlify.app/"
+                                target="_blank"
+                                >Zobraziť projekt</a
+                              >
+                            </p>
+                            <p>Reštauračné Menu</p>
+                            <p>
+                              <a
+                                href="https://zesty-sunshine-1bc3e6.netlify.app/"
+                                target="_blank"
+                                >Zobraziť projekt</a
+                              >
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- MORE -->
+                  <tr>
+                    <td class="content" style="padding: 20px; text-align: left">
+                      <!-- SECTION HEADER -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin-right: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="ikona pre sekciu vzdelanie"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <h2
+                                  style="
+                                    font-weight: lighter;
+                                    font-size: 17px;
+                                    line-height: 21px;
+                                    color: #472438;
+                                  "
+                                >
+                                  NÁJDETE MA TIEŽ NA...
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+
+                      <!-- GITHUB -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin-right: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="ikona pre sekciu vzdelanie"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <h2
+                                  style="
+                                    font-weight: lighter;
+                                    font-size: 17px;
+                                    line-height: 21px;
+                                    color: #472438;
+                                  "
+                                >
+                                  github
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- LINKEDIN -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin-right: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="ikona pre sekciu vzdelanie"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <h2
+                                  style="
+                                    font-weight: lighter;
+                                    font-size: 17px;
+                                    line-height: 21px;
+                                    color: #472438;
+                                  "
+                                >
+                                  Linkedin
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- SOUNDCLOUD -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin-right: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="ikona pre sekciu vzdelanie"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <h2
+                                  style="
+                                    font-weight: lighter;
+                                    font-size: 17px;
+                                    line-height: 21px;
+                                    color: #472438;
+                                  "
+                                >
+                                  Soundcloud
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+              <!-- COLUMN RIGHT [ABOUT ME, LANGUAGE SKILLS, WORK EXP ] -->
+              <div
+                class="column"
+                style="
+                  display: inline-block;
+                  width: 100%;
+                  margin: 0;
+                  min-width: 200px;
+                  max-width: 340px;
+                  vertical-align: top;
+                "
+              >
+                <table role="presentation" style="width: 100%">
+                  <!-- ABOUT ME -->
+                  <tr>
+                    <td class="content" style="padding: 20px; text-align: left">
+                      <!-- SECTION HEADER -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin-right: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="ikona pre sekciu o uchádzačovi"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <h2
+                                  style="
+                                    font-weight: lighter;
+                                    font-size: 17px;
+                                    line-height: 21px;
+                                    color: #472438;
+                                  "
+                                >
+                                  JA V SKRATKE
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- SECTION BODY -->
+                      <table>
+                        <tr>
+                          <td
+                            style="
+                              margin: 0 0 10px;
+                              font-weight: lighter;
+                              font-size: 17px;
+                              line-height: 21px;
+                              color: #472438;
+                            "
+                          >
+                            <p>
+                              Lorem ipsum dolor sit amet consectetur adipisicing
+                              elit. Non nulla quasi, tempore facilis reiciendis
+                              quidem temporibus doloribus quos ipsa? Eius iusto
+                              doloribus ipsum natus, harum illum corrupti
+                              quibusdam quidem dicta nihil quasi quaerat
+                              blanditiis facere voluptates impedit ex porro in!
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!-- LANGUAGE SKILLS -->
+                  <tr>
+                    <td class="content" style="padding: 20px; text-align: left">
+                      <!-- SECTION HEADER -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin-right: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="ikona pre sekciu o uchádzačovi"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <h2
+                                  style="
+                                    font-weight: lighter;
+                                    font-size: 17px;
+                                    line-height: 21px;
+                                    color: #472438;
+                                  "
+                                >
+                                  JAZYKY
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- SECTION BODY -->
+                      <table>
+                        <tr>
+                          <td
+                            style="
+                              margin: 0 0 10px;
+                              font-weight: lighter;
+                              font-size: 17px;
+                              line-height: 21px;
+                              color: #472438;
+                            "
+                          >
+                            <table>
+                              <tr>
+                                <th style="padding-right: 20px">
+                                  Anglický Jazyk
+                                </th>
+                                <td>B2</td>
+                              </tr>
+                              <tr>
+                                <th style="padding-right: 20px">
+                                  Francúzsky Jazyk
+                                </th>
+                                <td>základy</td>
+                              </tr>
+                              <tr>
+                                <th style="padding-right: 20px">
+                                  Maďarský Jazyk
+                                </th>
+                                <td>základy</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                  <!--PREVIOUS WORK EXPERIENCE -->
+                  <tr>
+                    <td class="content" style="padding: 20px; text-align: left">
+                      <!-- SECTION HEADER -->
+                      <div
+                        class="two-columns-uneven"
+                        style="
+                          display: table;
+                          width: 100%;
+                          margin: 0 auto;
+                          text-align: left;
+                          font-size: 0;
+                          margin-bottom: 10px;
+                        "
+                      >
+                        <!-- COLUMN - ICON -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin-right: 0;
+                            width: 30px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td style="padding-right: 30px">
+                                <img
+                                  src="https://i.ibb.co/rbWNXnc/021-facebook.png"
+                                  alt="ikona pre sekciu o pracovných skúsenostiach uchádzača"
+                                  style="width: 21px"
+                                />
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                        <!-- COLUMN - TEXT INFORMATION -->
+                        <div
+                          class="column"
+                          style="
+                            display: inline-block;
+                            margin: 0;
+                            width: 100%;
+                            max-width: 240px;
+                            vertical-align: middle;
+                          "
+                        >
+                          <table role="presentation">
+                            <tr>
+                              <td
+                                style="
+                                  font-size: 15px;
+                                  line-height: 21px;
+                                  color: #472438;
+                                "
+                              >
+                                <h2
+                                  style="
+                                    font-weight: lighter;
+                                    font-size: 17px;
+                                    line-height: 21px;
+                                    color: #472438;
+                                  "
+                                >
+                                  PREDCHÁDZAJÚCE PRACOVNÉ SKÚSENOSTI
+                                </h2>
+                              </td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <!-- SECTION BODY -->
+                      <table>
+                        <tr>
+                          <td
+                            style="
+                              margin: 0 0 10px;
+                              font-weight: lighter;
+                              font-size: 17px;
+                              line-height: 21px;
+                              color: #472438;
+                            "
+                          >
+                            <table style="border-spacing: 0">
+                              <tr>
+                                <th style="padding: 0 20px 10px 0">
+                                  Zamestnávateľ
+                                </th>
+                                <th style="padding: 0 0 10px 0">Pozícia</th>
+                              </tr>
+                              <tr>
+                                <th>COOP Jednota</th>
+                                <td>Skladník</td>
+                              </tr>
+                              <tr>
+                                <th>Exisport</th>
+                                <td>Asistent Predaja</td>
+                              </tr>
+                              <tr>
+                                <th>IMVTrans</th>
+                                <td>Špeditér</td>
+                              </tr>
+                              <tr>
+                                <th>B&M Liverpool</th>
+                                <td>Picker</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </td>
+        </tr>
+        <!------------------------------------------------
+            BOTTOM BORDER START
+          ------------------------------------------------>
+        <tr>
+          <td height="20px" style="background-color: #c3384b"></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
